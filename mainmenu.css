@@ -1,0 +1,96 @@
+body{
+	background-color: #1EE3A1;
+}
+#nav {
+    line-height:30px;
+    background-color: rgba(43,109,78,0.7);
+    height:60px;
+    width:1340px;
+    float:left;
+    padding:5px;
+	text-align:center;
+	font-family:  Times New Romans;
+	color: white;
+ 
+}
+    #nav_wrapper ul li{
+        list-style: none;
+        display: inline;
+        font-weight: bold;
+        padding: 10px;
+        
+    }    
+    #nav_wrapper a {
+        
+        color: white;
+        text-decoration: none;
+        font-family: Times New Roman;
+        font-size: 30px;
+    
+    }
+
+
+#myimage{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    height: 200px;
+    width: 200px;
+    display: inline;
+    
+}
+    
+#body-container{
+	height: 500px;
+	width: 75%;
+	margin: auto;
+    align-content:space-between;
+}
+
+#content-container{
+	height: 400px;
+	width: 75%;
+	background-color: #ffe6ff;
+	font-family: Berlin Sans FB;
+	text-align: center;
+    border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	box-shadow: 0px 25px 15px maroon;
+	position: fixed;
+	top: 150px;
+	
+}
+
+	#welcome-greet{
+		font-weight: 700;
+		font-size: 75px;
+		color: #006496;
+	}
+	
+#other-greet{
+	font-weight: 600;
+	font-size: 50px;
+	color: #AF0000;
+}
+	
+	
+.log-out{
+	width: 15%;
+	padding: 3px 3px;
+	border: 2px solid red;	
+	font-family: Arial Rounded MT;
+	font-size: 25px;
+	color: white;
+	background-color: #C40000;
+}
+
+.log-out:hover{
+	background-color: #FF5050;
+}
+	
+	
+.log-out:active{
+	background-color: #006496;
+}

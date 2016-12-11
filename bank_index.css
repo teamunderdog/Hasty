@@ -1,0 +1,83 @@
+body{
+	background-color: #e62e00;
+}
+
+#body-container{
+	height: 500px;
+	width: 75%;
+	margin: auto;
+}
+
+#content-container{
+	height: 500px;
+	width: 75%;
+	background-color: white;
+	font-family: Impact;
+	text-align: center;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	box-shadow: 0px 25px 15px maroon;
+	position: fixed;
+	top: 0px;
+	
+}
+
+
+table{
+    margin: -100px 50px;
+    font-size: 25px;
+    width: 50%;
+    text-align: left;
+	font-family: Berlin Sans FB;
+}
+
+
+
+td{
+    
+    margin-left: 25px;
+    padding: 15px 15px;
+}
+
+h1{
+    font-size: 50px;
+    color: #006496;
+}   
+
+th{
+    padding: 15px 15px;
+    color: #e62e00;
+    font-size: 30px;
+}
+
+input{
+    width: 25%;
+	padding: 15px 15px;
+    border: 2px solid red;	
+    font-family: Arial Rounded MT; 
+    font-size: 25px;
+    border-radius: 10px;
+    margin-left: 550px;
+    margin-top: 10px
+}
+
+	
+	
+.cancel{
+	width: 50%;
+	padding: 15px 15px;
+    margin-top: -25px;
+	font-family: Arial Rounded MT;
+	font-size: 25px;
+	color: white;
+	background-color: #cc2900;
+}
+
+.btn:hover{
+	background-color: #ff5c33;
+}
+	
+	
+.log-out:active{
+	background-color: #006496;
+}

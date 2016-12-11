@@ -1,0 +1,75 @@
+body{
+	background-color: #e62e00;
+}
+
+	div.div-major{
+		width: 50%;
+		height: 475px;
+		margin: auto;
+		margin-top: 50px;
+		background-color: white;
+		padding: 10px;
+		border: 8px solid rgb(0, 0, 153);
+		box-shadow: 15px 15px 25px maroon;
+	}
+	
+	#div-log-in-title{
+		width: 100%;
+		height: 10%;
+		padding-bottom: 10px;
+		font-weight: 700;
+		font-size: 75px;
+		font-family: Impact;
+		color: #006496;
+		text-align: center;
+	}
+		
+		
+		span.message{
+			font-size: 25px;
+			line-height: 20px;
+			font-family: Arial Rounded MT;
+			color: red;
+		}
+	
+	#div-log-in-content{
+		width: 100%;
+		height: 80%;
+	}
+	
+	#username-title, #password-title{
+		color: darkblue;
+		font-family: Impact;
+		font-size: 25px;
+		padding: 15px 10px 5px 40px;
+	}
+	
+	#username-input, #password-input, #log-in-input{
+		padding: 0px 10px 0px 40px;
+	}
+	
+	#username-input > input, #password-input > input, #log-in-input > input{
+		width: 90%;
+		padding: 15px 15px;
+		border: 2px solid red;	
+		font-family: Arial Rounded MT;
+		font-size: 25px;
+		border-radius: 10px;
+	}
+	
+	
+	.log-in{
+		color: white;
+		background-color: #cc2900;
+		margin-top: 25px; 
+	}
+	
+	.log-in:hover{
+		background-color: #ff5c33;
+	}
+	
+	
+	.log-in:active{
+		background-color: #006496;
+	}
+	
